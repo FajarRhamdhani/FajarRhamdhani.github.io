@@ -1,0 +1,249 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/* header */
+
+header {
+
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    z-index: 1;
+
+}
+
+header nav {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header nav img {
+
+    width: 75px;
+
+}
+
+header nav ul {
+
+    width: 30%;
+    padding-top:20px;
+
+}
+
+header nav ul a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+header nav ul a:hover {
+
+    color: #333;
+
+}
+
+header nav ul li {
+
+    display: inline-block;
+    padding: 10px;
+    padding-right : 10px;
+
+}
+
+header nav ul li:hover {
+
+    
+    background-color: #fff;
+
+}
+
+/*main article*/
+main section article figure {
+
+    width: 100%;    
+
+}
+
+main section article figure img {
+
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    height: 65%;
+
+}
+
+main section article form {
+
+    position: relative;
+    background-color: rgba(37, 34, 34, 0.2);
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+    top: 100px;
+    padding: 80px 0 80px 0;
+    color:#fff;
+
+}
+
+main section article form input {
+
+    width:50%;
+
+}
+
+/* class article */
+main section .article2 form  {
+
+    width:30%;
+
+}
+
+main section .article2 {
+
+    margin-top: 200px;
+    width: 80%;
+    margin: 200px auto;
+    margin-bottom: 0px;
+
+}
+
+main section .article2 h1 {
+
+    font-size: 50px;
+
+}
+
+main section .article2 img {
+
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;;
+
+}
+
+main section .article2 p {
+
+    padding-bottom: 10px;
+
+}
+
+main section .article2 h2 {
+
+    margin-bottom: 10px;
+
+}
+
+/*#berita*/
+
+#berita1 {
+
+    border-bottom: 1px solid grey;  
+    margin-bottom: 50px;  
+    padding-bottom: 50px; 
+
+}
+
+#berita2 {
+
+    border-bottom: 1px solid grey;  
+    margin-bottom: 50px; 
+    padding-bottom: 50px;  
+    
+}
+
+#berita2 img {
+
+    width: 25%;
+    
+}
+
+#berita3 {
+
+    border-bottom: 1px solid grey; 
+    padding-bottom: 50px;  
+    
+}
+
+#berita3 img {
+
+    width: 25%; 
+        
+}
+
+/*title*/
+
+#title {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    color:rgb(138, 203, 240);
+}
+
+/*article3*/
+
+main section .article3 {
+
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+
+}
+
+main section .article3 i {
+
+    font-size: 150px;
+    padding-bottom: 20px;
+    color:rgb(138, 203, 240);
+
+}
+
+/*#information*/
+
+#information1 {
+
+    padding-right: 15px;
+    padding-left: 30px;
+    border-right: 1px solid grey;
+
+}
+
+#information2 {
+
+    padding-right: 15px;
+    padding-left: 30px;
+    border-right: 1px solid grey;
+
+}
+
+#information3 {
+
+    padding-right: 15px;
+    padding-left: 30px;
+
+}
+
+/*footer*/
+
+footer {
+
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+
+}
+
+footer p {
+
+    padding: 20px;
+
+}
+
